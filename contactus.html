@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us</title>
+</head>
+<body>
+	
+	<!--Header-->
+	<h3 align="left" style="color: darkblue;">National &nbsp; World &nbsp; Movies &nbsp; Sports &nbsp; Technology &nbsp;</h3>
+	<hr>
+	<h1 align="center" style="color: darkblue;">THE QUICKR - NEWS PORTAL</h1>
+	<p align="center" style="color: darkblue;"><b>www.thequickrnewsportal.com</b></p>
+	<hr>
+	<h3 align="right" style="color: darkblue;">
+		<a style="text-decoration: none;" href="NewsListing.html" target="_parent">Home</a>
+		&nbsp; &nbsp;
+		<a style="text-decoration: none;" href="aboutus.html">About Us</a> 
+		&nbsp; &nbsp;
+		<a style="text-decoration: none;" href="contactus.html" target="_blank">Contact Us</a>
+	</h3> 
+
+	<!--Content-->
+	<h1 style="color: indianred;">Contact Us</h1>
+	
+	<form>
+		<fieldset style="color: indianred;">
+			<legend><b>For Further Queries<b></legend>
+				<br>
+				<label for="name">Name</label>
+				&nbsp; &nbsp;
+				<input id="name" type="text" name="name" style="color:indianred;">
+				<br><br>
+				<label for="phone">Mobile</label>
+				&nbsp;
+				<input id="phone" type="tel" name="phone" pattern="[0-9]{10}" title="10 digit number only" style="color:indianred;">
+				<br><br>
+				<label for="dept">Type of Communication</label>
+					<select id="dept" name="department" style="color: indianred;">
+						<option value="sales">Sales</option>
+						<option value="service">Service</option>
+						<option value="enquiry">Enquiry</option>
+						<option value="advertisement">Advertisement</option>
+						<option value="complaint">Complaint</option>
+					</select>
+				<br><br>
+				<label for="desc">Description</label>
+				<br>
+				<textarea id="desc" name="desc" rows="4" cols="50" placeholder="type here...." style="color:indianred;"></textarea>
+				<br>
+				<input type="submit" style="color:indianred;">
+				<br>
+		</fieldset>
+	</form>
+
+</body>
+</html>
